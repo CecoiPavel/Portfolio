@@ -470,3 +470,24 @@ button:hover{
     background-color: #3498db;
     color: #fff;
 }
+.work {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 30%; 
+}
